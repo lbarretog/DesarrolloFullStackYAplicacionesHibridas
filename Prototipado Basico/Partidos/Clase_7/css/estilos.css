@@ -1,0 +1,42 @@
+* {
+  max-width: 100%;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.container_big {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.container_div {
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.white {
+  background-color: #3B609E;
+}
+
+.blue {
+  background-color: #93A8CD;
+}
+
+.titulo {
+  font-size: 25px;
+  color: white;
+  background-color: #0D367D !important;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-family: "Merriweather";
+  font-size: 40px;
+  color: darkcyan;
+}

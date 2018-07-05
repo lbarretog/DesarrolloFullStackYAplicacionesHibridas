@@ -1,0 +1,11 @@
+AngularJs->1.x.x
+
+es un framework MVC
+
+para utilizar sass 
+abrir la consola y digitar (sass --watch scss/estilos.scss:css/estilos.css)
+sass --watch scss/estilos.scss:css/estilos.css
+
+para que no cree el archivo .map digitar
+sass --no-source-map --watch scss/estilos.scss:css/estilos.css
+

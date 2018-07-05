@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="aplicacion">
+<!-- referenciar mi aplicacion app.js-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clase 6 JSON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+    <script src="librerias/angularJS/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+
+<body>
+    <!--
+    <div ng-controller="PrincipalCtrl as prinipal">
+        <!--llama la variable ejemplo del controlador
+        <div ng-repeat="equipo in prinipal.equipos">
+            {{equipo}}
+        </div>
+    </div>
+    <div ng-controller="EjemploCtrl">
+        {{informacionAmostrar}}
+    </div>
+-->
+    <div ng-controller="PrincipalCtrl as principal" class="container_big white">
+        <div ng-repeat="equipo in principal.equiposImpares" class="container_div blue">
+            <!--para los equipos impares-->
+            <div>
+                <div class="titulo">
+                    Equipo Local
+                </div>
+
+                <div>
+                    <img src="http://www.countryflags.io/{{equipo[2]}}/flat/64.png" alt="bandera">
+                    <br> {{equipo[0]}}
+                </div>
+
+                <div>
+                    <p>Vs</p>
+                </div>
+                <div>
+                    <img src="http://www.countryflags.io/{{equipo[3]}}/flat/64.png" alt="bandera">
+                    <br> {{equipo[1]}}
+                </div>
+                <div class="titulo">
+                        Equipo Visitante
+                    </div>
+
+            </div>
+        </div>
+        <div ng-repeat="equipo in principal.equiposPares" class="container_div blue">
+            <!--para los equipos Pares-->
+            <div class="titulo">
+                    Equipo Local
+                </div>
+            <div>
+                <img src="http://www.countryflags.io/{{equipo[2]}}/flat/64.png" alt="bandera">
+                <br> {{equipo[0]}}
+            </div>
+            <div>
+                <p>Vs</p>
+            </div>
+            <div>
+                <img src="http://www.countryflags.io/{{equipo[3]}}/flat/64.png" alt="bandera">
+                <br> {{equipo[1]}}
+            </div>
+            <div class="titulo">
+                    Equipo Visitante
+                </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

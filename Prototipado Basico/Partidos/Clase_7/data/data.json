@@ -1,0 +1,125 @@
+[{
+    "venue": "Volgograd",
+    "location": "Volgograd Arena",
+    "status": "future",
+    "time": null,
+    "fifa_id": "300331507",
+    "weather": null,
+    "attendance": null,
+    "officials": null,
+    "stage_name": "First stage",
+    "home_team_country": "Japan",
+    "away_team_country": "Poland",
+    "datetime": "2018-06-28T14:00:00Z",
+    "winner": null,
+    "winner_code": null,
+    "home_team": {
+        "country": "Japan",
+        "code": "JP",
+        "goals": 0,
+        "penalties": null
+    },
+    "away_team": {
+        "country": "Poland",
+        "code": "PL",
+        "goals": 0,
+        "penalties": null
+    },
+    "home_team_events": [],
+    "away_team_events": [],
+    "last_event_update_at": null,
+    "last_score_update_at": "2018-06-22T18:33:35Z"
+}, {
+    "venue": "Samara",
+    "location": "Samara Arena",
+    "status": "future",
+    "time": null,
+    "fifa_id": "300331553",
+    "weather": null,
+    "attendance": null,
+    "officials": null,
+    "stage_name": "First stage",
+    "home_team_country": "Senegal",
+    "away_team_country": "Colombia",
+    "datetime": "2018-06-28T14:00:00Z",
+    "winner": null,
+    "winner_code": null,
+    "home_team": {
+        "country": "Senegal",
+        "code": "SN",
+        "goals": 0,
+        "penalties": null
+    },
+    "away_team": {
+        "country": "Colombia",
+        "code": "CO",
+        "goals": 0,
+        "penalties": null
+    },
+    "home_team_events": [],
+    "away_team_events": [],
+    "last_event_update_at": null,
+    "last_score_update_at": "2018-06-22T18:33:35Z"
+}, {
+    "venue": "Saransk",
+    "location": "Mordovia Arena",
+    "status": "future",
+    "time": null,
+    "fifa_id": "300331520",
+    "weather": null,
+    "attendance": null,
+    "officials": null,
+    "stage_name": "First stage",
+    "home_team_country": "Panama",
+    "away_team_country": "Tunisia",
+    "datetime": "2018-06-28T18:00:00Z",
+    "winner": null,
+    "winner_code": null,
+    "home_team": {
+        "country": "Panama",
+        "code": "PA",
+        "goals": 0,
+        "penalties": null
+    },
+    "away_team": {
+        "country": "Tunisia",
+        "code": "TN",
+        "goals": 0,
+        "penalties": null
+    },
+    "home_team_events": [],
+    "away_team_events": [],
+    "last_event_update_at": null,
+    "last_score_update_at": "2018-06-22T18:33:35Z"
+}, {
+    "venue": "Kaliningrad",
+    "location": "Kaliningrad Stadium",
+    "status": "future",
+    "time": null,
+    "fifa_id": "300340182",
+    "weather": null,
+    "attendance": null,
+    "officials": null,
+    "stage_name": "First stage",
+    "home_team_country": "England",
+    "away_team_country": "Belgium",
+    "datetime": "2018-06-28T18:00:00Z",
+    "winner": null,
+    "winner_code": null,
+    "home_team": {
+        "country": "England",
+        "code": "GB",
+        "goals": 0,
+        "penalties": null
+    },
+    "away_team": {
+        "country": "Belgium",
+        "code": "BE",
+        "goals": 0,
+        "penalties": null
+    },
+    "home_team_events": [],
+    "away_team_events": [],
+    "last_event_update_at": null,
+    "last_score_update_at": "2018-06-22T18:33:35Z"
+}]
