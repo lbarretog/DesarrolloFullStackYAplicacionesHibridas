@@ -7,10 +7,30 @@ Este repositorio hace parte del curso de informacion de fedesoft
 
 ## Grupo 40
 ------
-Talleres en clase:
+**Talleres en clase**:
+
 1. Sketch
 2. Hoja de Presentacion
-3. Clonacion de Pagina
+3. Clonacion de Pagina moduloDesk
 4. Animaciones con CSS
-5. 
-6
+5. Partidos
+----
+
+## Sketh
+_Actividad sobre Prototipado Web en papel y utilizando la aplicacion web Proto.io
+
+## Hoja de Presentacion
+_Creacion de pagina Web en donde se aplicaron los conocimientos de HTML, HTML5 y CSS3
+
+## Clonacion de Pagina moduloDesk
+_Clonación de la pagina [https://www.modulosdesk.com/], con aplicacion avanzada de HTML y CSS
+
+## Animaciones con CSS
+_Realizar la animacion de un tiro al arco con un balon utilizando animaciones con CSS
+
+## Partidos
+_Actividad usando JavaScript para leer un archivo data Js, e incluir CSS y HTML
+
+
+
+
