@@ -1,4 +1,4 @@
-Heading
+_Heading
 =========
 
 # DesarrolloFullStackYAplicacionesHibridas
@@ -17,19 +17,19 @@ Este repositorio hace parte del curso de informacion de fedesoft
 ----
 
 ## Sketh
-_Actividad sobre Prototipado Web en papel y utilizando la aplicacion web Proto.io
+_Actividad sobre Prototipado Web en papel y utilizando la aplicacion web Proto.io_
 
 ## Hoja de Presentacion
-_Creacion de pagina Web en donde se aplicaron los conocimientos de HTML, HTML5 y CSS3
+_Creacion de pagina Web en donde se aplicaron los conocimientos de HTML, HTML5 y CSS3_
 
 ## Clonacion de Pagina moduloDesk
-_Clonación de la pagina [https://www.modulosdesk.com/], con aplicacion avanzada de HTML y CSS
+_Clonación de la pagina [https://www.modulosdesk.com/], con aplicacion avanzada de HTML y CSS_
 
 ## Animaciones con CSS
-_Realizar la animacion de un tiro al arco con un balon utilizando animaciones con CSS
+_Realizar la animacion de un tiro al arco con un balon utilizando animaciones con CSS_
 
 ## Partidos
-_Actividad usando JavaScript para leer un archivo data Js, e incluir CSS y HTML
+_Actividad usando JavaScript para leer un archivo data Js, e incluir CSS y HTML_
 
 
 
