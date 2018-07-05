@@ -1,0 +1,53 @@
+.mitad1{
+	width: 50%;
+	height: 50%;
+	background-color: green;
+	/*float: left;*/
+}
+@keyframes cambia_color{
+	from{ background-color: blue;}
+	to {background-color: red;}
+}
+.div_animation{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	animation-name: cambia_color;
+	animation-duration: 4s;
+}
+.arco{
+	width: 600px;
+	height: 600px;
+	border: 1px solid red;
+	position: fixed;
+	top: 100px;
+	left: 400px;
+}
+.arco img{
+	width: 600px;
+	height: 600px;
+}
+
+.balon{
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	top: 500px;
+	left: 600px;
+}
+.balon img{
+	width: 80px;
+	height: 80px;
+}
+
+@keyframes gol{
+	0% {top: 450px;left: 800px;}		
+	25% { top:400px;left: 600px;}
+	50% {top: 350px;left: 550px;}		
+	75% { top:300px;left: 500px;}
+	100%{ top:230px;left: 430px;}	
+}
+.balon_animation{
+	animation-name: gol;
+	animation-duration: 2s;
+}

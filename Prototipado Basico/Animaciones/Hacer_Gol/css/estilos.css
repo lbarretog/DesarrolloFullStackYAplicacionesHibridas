@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+/* encabezado */
+header {
+    background-color: #55AA55;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* crea dos columnas/cajas que flotan una al lado de la otra*/
+nav {
+    float: left;
+    width: 40%;
+    height: 300px; 
+    background: #55AA55;
+    padding: 20px;
+}
+
+article {
+    float: left;
+    padding: 10px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Pie de Pagina */
+footer {
+    background-color: #004400;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* 
+Diseño receptivo: hace que las dos columnas / cajas se apilen una encima de la otra en lugar de una al lado de la otra, en pantallas pequeñas */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+div {
+	background-color: white;
+	padding: 10px;
+	color: #88CC88;
+}
+/* Selectores de Atributos*/
+
+
+[atributo]{/*Este selector 'seleccionará' todos los elementos que contengan el atributo "atributo", sin importar el valor que tenga.*/
+    color:white;
+}
+ul.a { /* clase para colocar atributos a una lista*/
+    list-style-type: square;
+}
+[atributo=b]{/*Este, seleccionará los elementos con el atributo "atributo", pero solo aquello cuyo valor coincida con "b".
+*/
+    color: DodgerBlue;
+}
+[atributo~="sin"]{ /*Este, seleccionará los elementos con el atributo "atributo", que contengan la palabra "sin"*/
+     background-color:tomato;
+}
+
+a, 
+a:hover, 
+a:focus,
+a:active{
+    color: black;    
+    text-decoration: none !important;
+    cursor: wait;
+}
