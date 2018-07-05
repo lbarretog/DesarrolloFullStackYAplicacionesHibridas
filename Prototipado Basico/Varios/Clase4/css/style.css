@@ -1,0 +1,21 @@
+
+
+section p{ /* Selector descendiente: se denota por un espacio entre clases*/
+	color: blue;
+}
+
+section > h2{
+	background-color: tomato;
+}
+h2 + p{
+	color: red;
+	font:italic bold 12px/30px Georgia, serif;
+}
+h2 ~ p {
+	font-size: 50px;
+	color: yellow;
+}
+p:hover{
+	color:green;
+	background-color: tomato;
+}

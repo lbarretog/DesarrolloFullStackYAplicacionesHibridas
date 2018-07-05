@@ -1,0 +1,48 @@
+$color:darkred;
+$font:"Comic Sans MS",
+cursive,
+sans-serif;
+$borde:1px solid red;
+/*body {
+    color: $color;
+    border: 1px solid lightblue;
+    font-family: $font;
+    border: $borde;
+}*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        a {
+            display: block;
+            padding: 6px 12px;
+            text-decoration: none;
+            color: $color;
+            background-color: aquamarine;
+            &:hover {
+                background-color: aqua;
+            } 
+            &[facebook] {
+                color: white;
+                background-color: darkgoldenrod;
+            }
+            &[google] {
+                color: white;
+                background-color: rgb(31, 196, 127);
+            }
+            &[youtube] {
+                color: white;
+                background-color: limegreen;
+            }
+
+        }
+    }
+}
+
+a{
+    text-decoration: underline;
+    color:blue;
+}

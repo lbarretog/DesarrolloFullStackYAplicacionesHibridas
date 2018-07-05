@@ -1,0 +1,43 @@
+/*body {
+    color: $color;
+    border: 1px solid lightblue;
+    font-family: $font;
+    border: $borde;
+}*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: darkred;
+  background-color: aquamarine;
+}
+ul li a:hover {
+  background-color: aqua;
+}
+ul li a[facebook] {
+  color: white;
+  background-color: darkgoldenrod;
+}
+ul li a[google] {
+  color: white;
+  background-color: #1fc47f;
+}
+ul li a[youtube] {
+  color: white;
+  background-color: limegreen;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+/*# sourceMappingURL=estilo.css.map */
