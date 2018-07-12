@@ -31,7 +31,7 @@ _Realizar la animacion de un tiro al arco con un balon utilizando animaciones co
 ## Partidos
 _Actividad usando JavaScript para leer un archivo data Js, e incluir CSS y HTML_
 
-##
+## Clase Ruby on Rails
 _Se adrega la carpeta con proyecto Ruby_
 
 
